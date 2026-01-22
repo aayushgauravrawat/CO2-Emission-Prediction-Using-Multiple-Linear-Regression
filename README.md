@@ -4,28 +4,28 @@ The goal of this project is to build a multiple linear regression model to predi
 
 The workflow followed in this project includes:
 
-Data Preprocessing
+Data Preprocessing:
   Removed categorical and non-numeric variables
   Selected only continuous numerical features for regression
 
-Feature Selection
+Feature Selection:
   Performed correlation analysis with the target variable (CO₂ emissions)
   Identified fuel consumption and engine variables as dominant predictors
   Handled multicollinearity among fuel-related features
 
-Model Training
+Model Training:
   Applied multiple linear regression using scikit-learn
   Split data into training (80%) and testing (20%) sets
   
-Model Evaluation
+Model Evaluation:
   Evaluated using R² score and Mean Absolute Error
   Checked generalization by comparing train and test performance
   Interpreted learned regression coefficients
 
 Based on correlation analysis and redundancy handling, the following features were selected:
-Engine Size
-Number of Cylinders
-City Fuel Consumption
+1.Engine Size
+2.Number of Cylinders
+3.City Fuel Consumption
 
 The learned regression equation is:
 CO2
@@ -43,11 +43,11 @@ This project demonstrates a complete regression pipeline including preprocessing
 The resulting model is accurate, stable, and physically meaningful, making it suitable for practical emission prediction tasks.
 
 Technologies Used:
-Python
-NumPy
-Pandas
-scikit-learn
-Matplotlib
+1.Python
+2.NumPy
+3.Pandas
+4.scikit-learn
+5.Matplotlib
 
 Author
 Aayush Gaurav Rawat
